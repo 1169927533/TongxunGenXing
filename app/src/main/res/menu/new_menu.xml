@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ren_workname"
+            android:icon="@drawable/github"
+            android:checkable="true"
+            android:title="    实习单位："/>
+    </group>
+    <item
+        android:id="@+id/ren_workplace"
+        android:icon="@drawable/linkedin"
+
+        android:title="    实习地点："/>
+    <item
+
+        android:id="@+id/ren_workzhiwu"
+        android:icon="@drawable/paypal"
+        android:title="    职务："/>
+    <item
+        android:id="@+id/qiandaoo"
+        android:icon="@drawable/qindao"
+        android:title="    签到+记录:"/>
+    <item
+
+        android:id="@+id/ren_clean"
+        android:icon="@drawable/laji"
+        android:title="    清理缓存："/>
+    <item
+        android:id="@+id/ren_teach"
+        android:icon="@drawable/picasa"
+        android:title="    指导老师:"/>
+    <item
+        android:id="@+id/min_tel"
+
+        android:title="    电话:"/>
+    <item
+        android:id="@+id/ren_huancunbig"
+        android:icon="@drawable/laji"
+        android:title="    占用内存："/>
+    <item
+        android:id="@+id/ren_tuichu"
+
+        android:title="    退出登录:"/>
+</menu>

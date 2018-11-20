@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hehe="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#AEEEEE">
+
+    <com.example.a11699.graduatemanager.circle.CirvleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/ac_head_CircleView"
+        android:src="@drawable/tou"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:textColor="#ffffff"
+        android:id="@+id/ren_name"
+        android:text="沐风"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="18dp"
+        android:text="人生像一场没有尽头的旅行."/>
+
+</LinearLayout>
